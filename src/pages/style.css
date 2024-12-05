@@ -1,0 +1,160 @@
+/* style.css */
+
+body {
+    background-image: url('lib-pic.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.text-container {
+    flex-grow: 1;
+    text-align: center;
+}
+.header h4,
+.header h1 {
+    margin: 0;
+    line-height: 1.5; /* Adjust line-height as needed for spacing between lines */
+}
+
+.logo {
+    height: 100px;
+}
+.title-bar {
+    display: flex;
+    align-items: center;
+}
+.search-bar-container {
+    padding: 10px;
+    text-align: center;
+}
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px; /* Set a maximum width for the search bar */
+    margin: 0 auto;
+}
+.search-bar input {
+    width: 300px;
+    padding: 10px; /* Increased padding for better appearance */
+    font-size: 16px;
+    border: 2px solid #ff0000; /* Added border for a cleaner look */
+    border-radius: 5px;
+}
+.search-bar button {
+    background-color: #c20000;
+    color: white;
+    padding: 10px 20px; /* Adjusted padding for better button size */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    border-radius: 5px;
+    max-width: 100px;
+}
+.search-bar button:hover {
+    background-color: #00ff00; /* Change the background color on hover */
+    color: blue;
+}
+.sign-in-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #003366; /* Use the desired blue color */
+    border-radius: 5px; /* Add rounded corners for a nicer look */
+}
+
+/* Style for the entire .sign-in container */
+.sign-in {
+    background-color: #003366; /* Same blue color as the link */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.sign-in-pic {
+    width: 30px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px; /* Add spacing between the image and the link */
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.feature {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 0 300px;
+}
+#about {
+    padding: 20px; /* Adjust padding as needed */
+    background-color: #000000; /* Background color */
+    border-radius: 10px; /* Add rounded corners */
+    max-height: 250px; /* Set the maximum width */
+    margin: 0 auto; /* Center the section horizontally */
+    border: 2px solid #000; /* 2px width solid border with black color */
+}
+
+#about h2 {
+    color: #ffffff; /* Heading color */
+}
+
+#about p {
+    margin-bottom: 15px; /* Bottom margin for paragraphs */
+    color: white;
+}
+
+#about a {
+    color: #007bb5; /* Link color */
+    text-decoration: none;
+    border-bottom: 1px solid #007bb5; /* Underline on hover */
+    transition: border-bottom 0.3s ease; /* Smooth transition */
+}
+
+#about a:hover {
+    border-bottom: 2px solid #007bb5; /* Increase underline thickness on hover */
+}
+
+#about ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#about li {
+    width: calc(33.33% - 10px); /* Adjust the width and spacing as needed */
+    margin-bottom: 10px;
+    background-color: #f8f8f8; /* Add background color to each list item */
+    
+}
+
+#about li a {
+    text-decoration: none;
+    color: #333;
+}
+#about li:hover {
+    background-color: #7ffd8a; /* Change background color on hover */
+}
+#about a:hover {
+    color: white; /* Change link color on hover */
+}
+/* .footer {
+    color: white;
+    text-align: center;
+    width: 100%;
+} */
